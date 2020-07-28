@@ -1,0 +1,56 @@
+{
+  "name": "opentelemetry-graphql-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/client": "^3.0.2",
+    "@apollo/react-hooks": "^4.0.0",
+    "@opentelemetry/api": "^0.4.0",
+    "@opentelemetry/core": "^0.1.1",
+    "@opentelemetry/exporter-jaeger": "^0.1.1",
+    "@opentelemetry/exporter-zipkin": "^0.1.1",
+    "@opentelemetry/tracing": "^0.1.1",
+    "@types/jest": "24.0.21",
+    "@types/node": "12.12.3",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.3",
+    "apollo-boost": "^0.4.9",
+    "create-react-app": "^3.2.0",
+    "flatted": "^3.0.4",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.10.4",
+    "react": "^16.11.0",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.11.0",
+    "react-scripts": "3.2.0",
+    "typescript": "3.6.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "generate-types": "graphql-codegen --config codegen.yml"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.17.6",
+    "@graphql-codegen/typescript": "1.17.6",
+    "@graphql-codegen/typescript-operations": "1.17.6",
+    "@graphql-codegen/typescript-react-apollo": "1.17.6"
+  }
+}
